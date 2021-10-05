@@ -1,0 +1,17 @@
+@media only screen and (max-width: 540px) {
+  .container {
+    width: 95%;
+    left: 8px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border: 1px solid black;
+  }
+
+  input {
+    width: 80%;
+  }
+
+  ul {
+    padding: 0;
+  }
+}

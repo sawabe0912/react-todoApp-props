@@ -1,0 +1,98 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 200vh;
+  background: linear-gradient(4deg, skyblue, 80%, whitesmoke 20%);
+  position: relative;
+}
+
+.container {
+  background-color: Azure;
+  width: 50%;
+  margin: auto;
+  border-radius: 10px;
+  top: 10%;
+  position: absolute;
+  left: 25%;
+  padding-bottom: 10px;
+  -webkit-box-shadow: 0px 10px 13px -7px #000000,
+    5px 2px 8px 5px rgba(0, 0, 0, 0.64);
+  box-shadow: 0px 10px 13px -7px #000000,
+    5px 2px 8px 5px 5px rgba(0, 0, 0, 0.64);
+}
+
+ul {
+  list-style-type: none;
+}
+
+.note {
+  background: white;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+  padding: 20px;
+  position: relative;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.checkmark {
+  top: 16px;
+  position: absolute;
+  margin-left: 0;
+  width: 20px;
+  height: 20px;
+}
+
+.rightSymbol {
+  cursor: pointer;
+  text-align: right;
+  display: inline;
+}
+
+.text {
+  left: 20%;
+  position: absolute;
+  top: 3px;
+}
+
+.deletemark {
+  position: absolute;
+  right: 10px;
+  top: 16px;
+}
+
+.editmark {
+  position: absolute;
+  right: 40px;
+  top: 16px;
+}
+
+.input {
+  height: 30px;
+  font-size: 20px;
+  width: 250px;
+}
+
+.updateBtn {
+  background-color: #008cba;
+  border: none;
+  color: white;
+  padding: 11px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.todoCard {
+  display: inline;
+  background-color: white;
+  padding: 30px;
+}
+
+.completed {
+  text-decoration: line-through;
+}
